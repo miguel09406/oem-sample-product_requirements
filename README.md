@@ -11,17 +11,17 @@ Home Automation Control System - A Complete AV System Controller with HTML and i
 Overview
 --------
 
-OEM-Partner's OEM-SAMP is a complete Automation System that offers control of video, audio, lighting, and other systems using OEM-Partner components. It features an HTML5 Web User Interface that is optimized for iPad, iPod, iPhone, Android, and similar tablets and smart-phones as the display and control interface.
+OEM-Partner's OEM-SAMP is a complete Automation System that offers control of video, audio, lighting, and other systems using OEM-Partner components. It features a HTML5 Web User Interface that is optimized for iPad, iPod, iPhone, Android, and similar tablets and smart-phones as the display and control interface.
 
 -	The OEM-SAMP system is unique in that it is designed to run on a home or business network, rather than as a stand-alone controller with dedicated cabling, making it ideal for retrofit or distributed system designs. 
 -	The system consists of a hardware component and a software component.  The hardware component is the OEM-Partner's OEM-SAMP (Linux Automation System). The software is the OEM-Partner's OEM-SAMP.
--	The control program, or “Daemon”, runs on a small fan-less low-power Linux processor (OEM-Partner's OEM-SAMP). The processor simply plugs into an Ethernet connection. It uses an 18V DC power supply, or can be powered over Ethernet (PoE) with the Alix POE1a2 passive POE Adapter. It has no other active connections.
+-	The control program, or “Daemon”, runs on a small fan-less low-power Linux processor (OEM-Partner's OEM-SAMP). The processor simply plugs into an Ethernet connection. It uses an 18V DC power supply, or can be powered over Ethernet 	(PoE) with the Alix POE1a2 passive POE Adapter. It has no other active connections.
 -	The OEM-SAMP processor also runs “Command Servers”, which contains the interface drivers for the controlled devices, and the Device Library.  
 -	The Device Library contains IR, LAN and RS-232 codes for each audio or video component that the system can control, along with button layouts, button names, etc.  
 -	The OEM-SAMP processor also contains an optional Z-Wave interface for control of lighting and other appliances.
--	The OEM-SAMP system communicates with the OEM-Partner's THING and Mini-THING control interfaces via the Ethernet Network, providing direct control via IR, RS-232 and Trigger outputs. The THING device(s) may be located next to the devices that are being controlled, and multiple THING's or Mini-THING's devices may be deployed in distributed A/V systems.
+-	The OEM-SAMP system communicates with the OEM-Partner's THING and Mini-THING control interfaces via the Ethernet Network, providing direct control via IR, RS-232 and Trigger outputs. The THING device(s) may be located next to the 	devices that are being controlled, and multiple THING's or Mini-THING's devices may be deployed in distributed A/V systems.
 -	The OEM-SAMP system also communicates directly with OEM-Partner's IP products over the Network.
--	OEM-SAMP features a high-level user-friendly configuration interface, allowing quick and simple system setup without requiring extensive programming or installer training, making it ideal for OEM-Partner’s world-wide network of installers.
+-	OEM-SAMP features a high-level user-friendly configuration interface, allowing quick and simple system setup without requiring extensive programming or installer training, making it ideal for OEM-Partner’s world-wide network of 	installers.
 -	OEM-SAMP does not require Internet access for configuration or use. All files are contained within the OEM-SAMP processor.
 
 
@@ -45,12 +45,12 @@ Product Version 1:
 The first Product should have the following basic specifications and shall allow upgrades and increases in functionality, via the Internet or through a USB port. 
 The below listed characteristics are necessary for the Product launch.
 
--	The Product allows IR control of devices (e.g. TV, Cable Box, Receiver, and Disc Player) via the OEM-Partner's THING, Mini-THING, (or ev. other 3rd-Party Gateways, such as Global Cache, IRTrans, and/or Moxa) The devices can be learned within a fixed template through the IR receiver in the THING, or downloaded from the Library in the OEM-SAMP.
--	The Product allows control of RS-232 serial devices (e.g. Matrix, Amplifier, Video-Processor, etc.) This control is limited to OEM-Partner's products only. These supported devices must be pulled from a Library in the Product. (This feature requires that nomos system AG receives all the Products for prior testing and implementation in the Library).
--   The Product can be configured via a simple “editor tool” (standalone software or via HTML5). The functionality of the “editor tool” will be kept simple and provides only basic functions. The graphic library provides fixed GUI templates consisting of basic sliders, buttons and text fields. The “editor tool” shall remain upgradable for further increments.
--   The Product shall be remote controlled via a browser. Only specific Web browsers (to be specified) will be supported.
--   The Product shall be delivered with “discovery” software to recognize and find the IP address of the Controller once it is plugged into the local Network. This will allow the configuration of the Product on the Controller.
--   The LINUX Hardware will be evaluatetd by nomos system AG for its compiling abilities and purchased by OEM-Partner directly.
+-	The Product allows IR control of devices (e.g. TV, Cable Box, Receiver, and Disc Player) via the OEM-Partner's THING, Mini-THING, (or ev. other 3rd-Party Gateways, such as Global Cache, IRTrans, and/or Moxa) The devices can be 	learned within a fixed template through the IR receiver in the THING, or downloaded from the Library in the OEM-SAMP.
+-	The Product allows control of RS-232 serial devices (e.g. Matrix, Amplifier, Video-Processor, etc.) This control is limited to OEM-Partner's products only. These supported devices must be pulled from a Library in the Product. 	(This feature requires that nomos system AG receives all the Products for prior testing and implementation in the Library).
+-   	The Product can be configured via a simple “editor tool” (standalone software or via HTML5). The functionality of the “editor tool” will be kept simple and provides only basic functions. The graphic library provides fixed GUI 	templates consisting of basic sliders, buttons and text fields. The “editor tool” shall remain upgradable for further increments.
+-   	The Product shall be remote controlled via a browser. Only specific Web browsers (to be specified) will be supported.
+-   	The Product shall be delivered with “discovery” software to recognize and find the IP address of the Controller once it is plugged into the local Network. This will allow the configuration of the Product on the Controller.
+-   	The LINUX Hardware will be evaluated by nomos system AG for its compiling abilities and purchased by OEM-Partner directly.
  
  
  
@@ -59,7 +59,7 @@ Product Version 2:
 
 The second product revision shall have the following basic specifications and shall allow upgrades and increase in functionality according to feedback gathered in the market. The features listed below, as a minimum, will be included in the second revision of the Product. Many of these features will be included in the TRADESHOW-Release-Date demo system. All systems shall be upgraded to the Version 2 revision at no cost when it is released.
 
--   Support for Z-Wave Gateway will be integrated into the Product. Once the specific gateway is selected and specified, nomos system AG will implement basic functions of the Gateway into the Product. The goal shall be to configure the controllability (e.g. of a dimmer or an I/O module) through the “Editor tool”.
+-   Support for Z-Wave Gateway will be integrated into the Product. Once the specific gateway is selected and specified, nomos system AG will implement basic functions of the Gateway into the Product. The goal shall be to configure the 	controllability (e.g. of a dimmer or an I/O module) through the “Editor tool”.
 -	AppleTV 2 “semi bi-directional” integration
 -	“Macro” functions
 -	“Power Memory” may not be implemented in version 2. It will be on the feature list for the future.
@@ -80,14 +80,14 @@ Editor tool (standalone Software or via HTML5):
 
 We designed the Editor tool as a simple configurator (standalone software or via HTML5). The philosophy is to pre-produce fixed GUI-Templates and then just assign the command pattern for that device. With that philosophy we can pre-define and explain to the client how to setup and integrate his system, the biggest challenge is to avoid variables.
 
-From our experience we learned that all systems are going back to 3 simple basics-Multi-room, Two-Channel and Multi-Channel – all system variations have the same roots of these known elements.
+From our experience we learned that all systems are going back to 3 simple basics - Multi-room, Two-Channel and Multi-Channel – all system variations have the same roots of these known elements.
 
 
 
 Hardware (EXT-LAST) Interface:
 ------------------------------
 
-The OEM-Partner's OEM-SAMP Linux Processor shall incorporate the XILA 3D2 processor board from Board Manufacturer. The LINUX Hardware will be evaluatetd by nomos system AG for its compiling abilities and purchased by OEM-Partner directly. The enclosure will be purchased from OEM-Partner and may choose to design an enclosure for the board.
+The OEM-Partner's OEM-SAMP Linux Processor shall incorporate the XILA 3D2 processor board from Board Manufacturer. The LINUX Hardware will be evaluated by nomos system AG for its compiling abilities and purchased by OEM-Partner directly. The enclosure will be purchased from OEM-Partner and may choose to design an enclosure for the board.
 
 Board Manufacturer XILA boards are small form factor system boards optimized for wireless routing and network security applications.
 
@@ -179,9 +179,9 @@ XILA 3D2 Federal Communications Commission Statement:
 -	This device complies with Part 15 of the FCC Rules. Operation is subject to the following two conditions: 
 -	(1) this device may not cause harmful interference, and 
 -	(2) this device must accept any interference received, including interference that may cause undesired operation.
--	This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses, and can radiate radio energy. If this equipment is not installed and used in accordance with the manufacturer’s instructions, it may cause harmful interference to radio communications. 
+-	This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to Part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a 	residential installation. This equipment generates, uses, and can radiate radio energy. If this equipment is not installed and used in accordance with the manufacturer’s instructions, it may cause harmful interference to radio 	communications. 
 
--	However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to correct the interference by one or more of the following measures:
+-	However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off 	and on, the user is encouraged to correct the interference by one or more of the following measures:
 -	Reorient or relocate the receiving antenna.
 -	Increase the separation between the equipment and receiver.
 -	Connect the equipment to an outlet on a circuit different from that to which the receiver is connected.
@@ -210,49 +210,23 @@ Desired Control Features:
 -------------------------
 
 -	iOS / Android UI Control
--	Pre-Configured device control screens
 -	Re-labelable buttons
--	2-way Macro and screen select capability under each button
 -	Metadata / cover art page
 -	Favorite Channel button pages
--	Playlist button pages
 -	Configuration download and off-line project editing
 -	Use internal accelerometer for auto turn-on/off
 -	Store IR, RS-232, CEC, URL commands in local banks
--	Commands Manager: Name and label commands
 -	Configure TCP/IP settings
 -	Configure RS-232 settings for each port: baud rate, flow control, parity, etc.
--	Create actions/macros: Each action/macro is a list of commands to be sent out to one or more serial ports. Each action is created with web link, when user clicks that corresponding commands are sent out. 
--	Actions Manager: Name, Label, Modify, and Remove actions 
--	Action scheduler to trigger action(s) at certain time of the day/astronomical clock
--	Action scheduler to trigger action(s) after power up. User configurable delay between power up and send out action 
-
- 
- 
-Desired Firmware Feature:
--------------------------
-
--	Action history: Full log of all programs performed. Sortable, printable and exportable as text.
+-	Action scheduler to trigger action(s)
 -	Schedule programs with a name, description and unique Action ID.
--	Configuration settings: start time, schedule (weekdays, weekends, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)
--	Allow up to 7 different control types for programming: RS-232, IR, CEC, Triggers, Delay, Time/Date, and Macros
--	Check State feature: Allows the HAVCS to know the current state of the device by viewing the action history. Will skip the action defined in the macro if the state returns true.
--	NTP time synchronization from server
--	Internal date and time and internal battery, configurable time (24hour vs. 12hour)
--	Astronomical Clock- Set Sunrise/Sunset time by ZIP code/GPS
--	IP configurable options: IP address, subnet, gateway, port
--	Configurable history setting: Allows installer to choose how far back it should log all actions (up to 3 months).
+-	Timer: start time, schedule (weekdays, weekends, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday)
 -	Firmware field upgrades. Upload FW file thru web UI.
 -	Upload/Download learned/programmed commands as a text file
--	Upload IR, RS-232, CEC command files from URC/LIRC
+-	Upload IR, RS-232, CEC command files from 3rd party databases
 -	System wide reset: Delete all actions, programs, and internal settings.
--	Configuration settings: Device name, description and unique Action ID.
--	Learn IR system. (show learned IR code in hex, allow to input codes by hex instead of learning )
--	Program IR, RS-232, and CEC macro commands with a name, description and Action ID.
--	Control Type: Delay feature. Allows installer to add a delay in seconds (up to 999) or hours (up to 240) between actions defined in the macro.
--	RS-232/IP/CEC Live view and command window. Allows installer to view commands sent to the device, feedback and manually enter RS-232, IP, and CEC commands.
--	Smart State feature: Allow the trigger to follow state of another trigger.
--	Trigger Configuration settings: Pulse - ON/OFF, duration of pulse (10 to 10000 ms), standard/inverted 
+-	Learn IR remotes
+-	Event Engine: Allow the scripts to follow state of another trigger.
 
 
 
@@ -277,7 +251,7 @@ OEM-SAMP Processor Enclosure:
 -----------------------------
 
 -	Size: 113 x 163 x 30 mm (4.45 x 6.42” x 1.18”)
--	Material: Aluminum
+-	Material: Aluminium
 -	Fan-less design
 -	Color: TBD (OEM-Partner Design: 4.35 x 6.42 x 1.18)
 
